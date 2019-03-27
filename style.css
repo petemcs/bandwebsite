@@ -1,9 +1,5 @@
  /* .....................navigation bar */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      
-    }
+  
 body {
   margin: 0;
   padding: 0;
@@ -51,41 +47,21 @@ body {
     font-size: 1.4em;
   }
  
-  /* Option 1 - Display Inline */
+  
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
  
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
-}
-
- 
-
-
-    
-     
-    
-    /* ..................... footer */
+   /* ..................... footer */
     .footer {
-      color:#a5a7aa;
+      color:#ccc;
       padding: 25px;
-      
+      float: left 40px;
     }
-    .container-fluid{background-color: red;}
-    
+      
+   
+/* ..................... Carousel image */
   .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
@@ -162,4 +138,10 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+video {
+  padding: 20px;
+  width: 100%;
+  height: auto;
 }
