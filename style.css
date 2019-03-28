@@ -140,8 +140,11 @@ input[type=submit]:hover {
   }
 }
 
-video {
-  padding: 20px;
-  width: 100%;
-  height: auto;
-}
+
+   #wrapper {
+            padding:25px;
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
